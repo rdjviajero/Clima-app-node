@@ -6,7 +6,7 @@ const axios = require('axios');
 const getLugarLatLog = async (dir)=>{
 
     const params = {
-        auth: '115401871083670228647x6572',
+        auth: 'APIKEY',
         locate: dir,
         json: '1'
     }
